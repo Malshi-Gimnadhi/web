@@ -1,0 +1,52 @@
+/* SignIn.css */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+  }
+  
+
+  .form {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1rem;
+  }
+  
+
+  .avatar {
+    margin: 1rem;
+    background-color: #1976D2; 
+  }
+  
+ 
+  .submit-button {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: #1976D2; 
+    color: #fff; 
+  }
+  
+  
+  .checkbox-label {
+    color: #1976D2; 
+  }
+  
+ 
+  .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+
+  .forgot-password-link {
+    color: #1976D2; 
+  }
+  
+  
+  .sign-up-link {
+    color: #197
+  }  

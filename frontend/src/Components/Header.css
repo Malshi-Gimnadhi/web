@@ -1,0 +1,48 @@
+/* Header styles */
+
+.app-bar {
+    background-color: #4169E1;
+    border-bottom: 1px solid #333;
+  }
+  
+  .toolbar {
+    flex-wrap: wrap;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #800000;
+    flex-grow: 1;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    margin: 1.5rem;
+    color: #333;
+  }
+  
+  .register-button,
+  .login-button,
+  .logout-button {
+    margin: 1.5rem;
+    color: black;
+    border-color: black;
+  }
+  
+  .logout-button {
+    color: red;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 600px) {
+    .title {
+      font-size: 20px;
+    }
+  }
+  

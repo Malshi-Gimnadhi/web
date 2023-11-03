@@ -1,0 +1,94 @@
+/* Global Styles */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Header styles */
+  .app-bar {
+    background-color: #4169E1;
+    border-bottom: 1px solid #333;
+  }
+  
+  /* Hero unit styles */
+  .hero-container {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-description {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  /* Card styles */
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-media {
+    padding-top: 90.25%; /* 16:9 aspect ratio */
+  }
+  
+  .card-content {
+    flex-grow: 1;
+  }
+  
+  card-title {
+    font-size: 1.5rem;
+  }
+  
+  /* Card Actions */
+  card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  shop-button {
+    color: #4169E1;
+  }
+  
+  /* Right Column */
+  .right-column {
+    padding: 2rem;
+  }
+  
+  /* Image List */
+  .image-list {
+    width: 500px;
+    height: 600px;
+  }
+  
+  /* Image List Item */
+  .image-list-item {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  image-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  image-author {
+    font-size: 0.8rem;
+    color: #777;
+  }
+  

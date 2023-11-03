@@ -1,0 +1,30 @@
+.art-table {
+    margin: 20px;
+    background-color: aliceblue;
+  }
+  
+  table {
+    border-collapse: collapse;
+    background-color: antiquewhite;
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
